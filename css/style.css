@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: URL('/media/CenturyGothic.ttf') format('truetype');
+  }
+
+body {
+    font-family: 'CenturyGothic', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #f6f6f6;
+    padding: 22px 0;
+}
+
+.header-wrapper {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: flex;    
+}
+
+.main-menu {
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+.main-menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 70px;
+}
+
+.main-menu li a:hover {
+    background-color: #ffea00;
+}
+
+/* Content Styles */
+
+/* Main Slide Style*/
+
+.main-slide {
+    background: url(/media/slider_bg.jpg) no-repeat;
+    padding: 123px 0 303px 0;
+    margin-bottom: 0;
+}
+
+.main_slide-wrapper{
+    width: 87%;
+    margin: 0 auto;    
+}
+
+.main_slide-wrapper div:first-child {
+    margin-bottom: 8px;
+}
+
+.main_slide-wrapper div:nth-child(2) {
+    margin-bottom: 14px;
+}
+
+.main-slide h2 {
+    display: inline;
+    background-color: #ffea00;
+    color: #000;
+    font-size: 70px; 
+    text-transform: uppercase;
+    padding: 0 13px;
+    margin: 0;
+}
+
+.main-slide p {
+    display: inline;
+    background-color: #414146;
+    color: #fff;
+    font-size: 24px; 
+    padding: 0 7px;
+}
+
+.main_slide-wrapper div:nth-child(4) {
+    margin: 1px 0;
+}
+
+/* Our Specializaion Style*/
+.specialization {
+    margin-top: 70px;
+}
+
+.specialization-wrapper {
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialization-wrapper h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+}
+
+.specialization-wrapper p {
+    margin: 20px 0 60px 0;
+    font-size: 24px;
+}
+
+.cards {
+    display:flex;
+    justify-content: space-between;
+}
+
+.cards > .card-item:not(:first-child) {
+    background-color: #ffea00;
+}
+
+.card-item {
+    width: 23%;
+}
+
+.top-card {
+    display: flex;
+    height: 205px;    
+    text-transform: uppercase;
+    position: relative;
+}
+
+.top-card > img {
+    margin: auto; 
+}
+
+.top-card > p {
+    position: absolute;  
+    text-align: center;
+    width: 100%;
+    top: 70%;
+
+}
+
+.bottom-card{
+    background-color: #414146;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom-card p{
+    font-size: 18px;
+    padding: 30px;
+    margin: 0
+}
+
+/* Our Work Style*/
+
+.our-work {
+    margin-top: 80px;
+}
+
+.our_work-wrapper {
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our_work-wrapper h3 {    
+    background-color: #424147;
+    color: #ffea00;
+    font-size: 18px;
+    text-transform: uppercase;    
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+/* Footer Styles */
+
+.about_us p {
+    font-size: 13px;
+}
+
