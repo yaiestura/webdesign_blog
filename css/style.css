@@ -25,7 +25,7 @@ header {
 
 li {
     list-style: none;
-    display: flex;    
+    display: flex;
 }
 
 .main-menu {
@@ -55,13 +55,17 @@ nav ul{
 
 .main-slide {
     background: url(/media/slider_bg.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding: 123px 0 303px 0;
     margin-bottom: 0;
 }
 
 .main_slide-wrapper{
     width: 87%;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 .main_slide-wrapper div:first-child {
@@ -76,7 +80,7 @@ nav ul{
     display: inline;
     background-color: #ffea00;
     color: #000;
-    font-size: 70px; 
+    font-size: 70px;
     text-transform: uppercase;
     padding: 0 13px;
     margin: 0;
@@ -86,7 +90,7 @@ nav ul{
     display: inline;
     background-color: #414146;
     color: #fff;
-    font-size: 24px; 
+    font-size: 24px;
     padding: 0 7px;
 }
 
@@ -121,7 +125,7 @@ nav ul{
     justify-content: space-between;
 }
 
-.cards > .card-item:not(:first-child) {
+.card-item {
     background-color: #ffea00;
 }
 
@@ -131,17 +135,17 @@ nav ul{
 
 .top-card {
     display: flex;
-    height: 205px;    
+    height: 205px;
     text-transform: uppercase;
     position: relative;
 }
 
 .top-card > img {
-    margin: auto; 
+    margin: auto;
 }
 
 .top-card > p {
-    position: absolute;  
+    position: absolute;
     text-align: center;
     width: 100%;
     top: 70%;
